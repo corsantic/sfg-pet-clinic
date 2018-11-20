@@ -1,4 +1,4 @@
-package enemo.springframework.sfgpetclinic.model;
+package model;
 
 import javax.persistence.Entity;
 import java.time.LocalDate;
