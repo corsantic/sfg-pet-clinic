@@ -3,10 +3,11 @@ package enemo.springframework.sfgpetclinic.services.map;
 import enemo.springframework.sfgpetclinic.model.Pet;
 import enemo.springframework.sfgpetclinic.model.Vet;
 import enemo.springframework.sfgpetclinic.services.CrudService;
+import enemo.springframework.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {

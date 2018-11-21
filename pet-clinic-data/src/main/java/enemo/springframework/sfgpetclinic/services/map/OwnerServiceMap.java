@@ -2,10 +2,11 @@ package enemo.springframework.sfgpetclinic.services.map;
 
 import enemo.springframework.sfgpetclinic.model.Owner;
 import enemo.springframework.sfgpetclinic.services.CrudService;
+import enemo.springframework.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements CrudService<Owner,Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
 
 
     @Override
@@ -35,6 +36,11 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements C
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
 
