@@ -1,11 +1,12 @@
 package enemo.springframework.sfgpetclinic.services.map;
 
 import enemo.springframework.sfgpetclinic.model.Owner;
-import enemo.springframework.sfgpetclinic.services.CrudService;
 import enemo.springframework.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
 
 

@@ -4,12 +4,8 @@ import enemo.springframework.sfgpetclinic.model.Owner;
 import enemo.springframework.sfgpetclinic.model.Vet;
 import enemo.springframework.sfgpetclinic.services.OwnerService;
 import enemo.springframework.sfgpetclinic.services.VetService;
-import enemo.springframework.sfgpetclinic.services.map.OwnerServiceMap;
-import enemo.springframework.sfgpetclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
-import java.sql.SQLOutput;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -17,11 +13,12 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-    ownerService= new OwnerServiceMap();
-    vetService = new VetServiceMap();
-
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
+
+
 
     @Override
     public void run(String... args) throws Exception {
