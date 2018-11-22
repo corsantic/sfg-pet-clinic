@@ -1,0 +1,14 @@
+enemo\springframework\sfgpetclinic\model\Pet.class
+enemo\springframework\sfgpetclinic\services\map\OwnerServiceMap.class
+enemo\springframework\sfgpetclinic\model\PetType.class
+enemo\springframework\sfgpetclinic\services\VetService.class
+enemo\springframework\sfgpetclinic\model\Vet.class
+enemo\springframework\sfgpetclinic\model\Owner.class
+enemo\springframework\sfgpetclinic\services\CrudService.class
+enemo\springframework\sfgpetclinic\services\map\AbstractMapService.class
+enemo\springframework\sfgpetclinic\services\map\PetServiceMap.class
+enemo\springframework\sfgpetclinic\services\OwnerService.class
+enemo\springframework\sfgpetclinic\services\PetService.class
+enemo\springframework\sfgpetclinic\model\BaseEntity.class
+enemo\springframework\sfgpetclinic\services\map\VetServiceMap.class
+enemo\springframework\sfgpetclinic\model\Person.class
