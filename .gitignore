@@ -1,5 +1,10 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+/pet-clinic-web/target
+/pet-clinic-data/target
+pet-clinic-web/target
+pet-clinic-web/target
+
 
 ### STS ###
 .apt_generated
@@ -23,5 +28,3 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-/pet-clinic-web/target
-/pet-clinic-data/target
