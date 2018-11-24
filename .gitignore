@@ -4,6 +4,8 @@
 /pet-clinic-data/target
 pet-clinic-web/target
 pet-clinic-web/target
+*/target/**
+*/target/*
 
 
 ### STS ###
