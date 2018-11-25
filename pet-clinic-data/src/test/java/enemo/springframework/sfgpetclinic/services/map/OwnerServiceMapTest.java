@@ -19,7 +19,6 @@ class OwnerServiceMapTest {
     void setUp() {
 
         ownerServiceMap = new OwnerServiceMap(new PetTypeMapService(), new PetServiceMap());
-
         ownerServiceMap.save(Owner.builder().id(ownerId).lastName(lastName).build());
 
     }
